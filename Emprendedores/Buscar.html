@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DIGITALIZACION DE EMPRENDEDORES</title>
+</head>
+<body>
+
+    <main>
+        <h2>Buscar Emprendimientos</h2>
+        <p>Encuentra el emprendimiento que buscas usando cualquiera de los filtros:</p>
+
+        <form action="#" method="get">
+            <!-- 🔍 Por nombre del emprendimiento -->
+            <p>
+                <label><strong>Nombre del emprendimiento:</strong></label><br>
+                <input type="text" name="nombre_emprendimiento" placeholder="Ej: Panadería El Sol, Tech Solutions..." size="50">
+            </p>
+
+            <!-- 👤 Por nombre del emprendedor -->
+            <p>
+                <label><strong>Nombre del emprendedor:</strong></label><br>
+                <input type="text" name="nombre_emprendedor" placeholder="Ej: Juan Pérez, María López..." size="50">
+            </p>
+
+            <!-- 🏷️ Tipo de emprendimiento -->
+            <p>
+                <label><strong>Tipo de emprendimiento:</strong></label><br>
+                <select name="tipo_emprendimiento">
+                    <option value="">-- Todos los tipos --</option>
+                    <option value="comida">Comida y Bebida</option>
+                    <option value="tecnologia">Tecnología</option>
+                    <option value="servicios">Servicios Profesionales</option>
+                    <option value="construccion">Construcción y Reparación</option>
+                    <option value="salud">Salud y Bienestar</option>
+                    <option value="belleza">Belleza y Cuidado Personal</option>
+                    <option value="comercio">Comercio / Tienda</option>
+                    <option value="educacion">Educación y Capacitación</option>
+                    <option value="transporte">Transporte y Logística</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </p>
+
+            <!-- 📍 Ubicación -->
+            <p>
+                <label><strong>Ubicación / Departamento:</strong></label><br>
+                <select name="ubicacion">
+                    <option value="">-- Todas las ubicaciones --</option>
+                    <option value="san-salvador">San Salvador</option>
+                    <option value="santa-ana">Santa Ana</option>
+                    <option value="la-libertad">La Libertad</option>
+                    <option value="san-miguel">San Miguel</option>
+                    <option value="la-union">La Unión</option>
+                    <option value="usulutan">Usulután</option>
+                    <option value="sansonate">Sonsonate</option>
+                    <option value="ahuachapan">Ahuachapán</option>
+                    <option value="cabanas">Cabañas</option>
+                    <option value="chalatenango">Chalatenango</option>
+                    <option value="cuscatlan">Cuscatlán</option>
+                    <option value="morazan">Morazán</option>
+                    <option value="la-paz">La Paz</option>
+                    <option value="san-vicente">San Vicente</option>
+                </select>
+            </p>
+
+            <!-- 📞 Teléfono -->
+            <p>
+                <label><strong>Teléfono:</strong></label><br>
+                <input type="tel" name="telefono" placeholder="Ej: 2222 1234 o 7777 1234" size="50">
+            </p>
+
+            <!-- 🔘 Botón de búsqueda -->
+            <p>
+                <button type="submit"> Buscar Emprendimientos</button>
+                <button type="reset"> Limpiar Campos</button>
+            </p>
+        </form>
+
+        <hr>
+        <h3>Resultados de la búsqueda</h3>
+        <p>Los resultados aparecerán aquí cuando conectes tu JavaScript.</p>
+
+        <p><a href="Menu-Principal.html"> volver </a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Emprende Fácil. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
